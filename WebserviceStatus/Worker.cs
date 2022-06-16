@@ -32,7 +32,7 @@ namespace WebserviceStatus
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-                var result = await client.GetAsync("https://iamtincorey.com");
+                var result = await client.GetAsync("https://github.com/");
 
                 if (result.IsSuccessStatusCode)
                 {
