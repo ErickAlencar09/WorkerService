@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-WebserviceStatus-32EBCA6E-5C1D-48EF-940F-684701F48888</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.20" />
+    <PackageReference Include="MySql.Data" Version="8.0.29" />
+  </ItemGroup>
+</Project>
